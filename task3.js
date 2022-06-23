@@ -5,10 +5,10 @@ const divideAndSort = input => {
 
     for(let i = 0; i < lengthInput; i++){
         nuArray.push(inputToString[i])
-        // if(inputToString[i] == 0){
-        //     break;
-        // }
-        // continue;
+        if(inputToString[i] == 0){
+            break;
+        }
+        continue;
     }
 
     return nuArray;
